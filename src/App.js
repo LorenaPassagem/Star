@@ -1,13 +1,16 @@
 import React from 'react';
 import GlobalStyle from './components/GlobalStyle';
-import Star from './components/Star';
+import {Star, WrapStar } from './components/Star';
 
 function App() {
   return (
-  <>  
+  <WrapStar>  
+    <Star />
+    <Star />
     <Star />
     <GlobalStyle />
-  </>  
+  </ WrapStar>
+    
   );
 }
 

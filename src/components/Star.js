@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 import icon from '../img/star.png';
 
-const Star = styled.img.attrs({src:icon, alt:'estrelinha'})`
+export const WrapStar = styled.div`
+     display: flex;
+    justify-content:center;
 `;
 
-export default Star
+export const Star = styled.img.attrs({src:icon, alt:'estrelinha'})`
+
+`;
+
